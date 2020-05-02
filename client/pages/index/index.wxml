@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+<!-- //获取用户头像直接显示在小程序中 -->
+<open-data type="userAvatarUrl"></open-data>    
+  <!-- //获取用户昵称直接显示在小程序中  -->
+    <open-data type="userNickName" lang="zh_CN"></open-data> 
+
+  <view class="getininfo">
+    <image bindtap="getin" class="getinfo" src="../../image/getin.png"></image>
+  </view>
+  
+  <!-- <view class="image">
+    <image bindtap="chooseimage" class="camera-icon" src="../../image/camera.png"></image>
+  </view>  -->
+</view>
